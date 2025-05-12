@@ -19,6 +19,8 @@ OS : Linux
 ##### The theme is used : Rose-Pine
 ##### Package Manager : Packer
 
+![File Tree](<Link to Screenshot from 2025-05-12 17-20-16.png>)
+
 ![Coding Screen](<Link to Screenshot from 2025-05-12 12-48-02.png>)
 
 ![Fuzzy Finder](<Link to Screenshot from 2025-05-12 12-50-22.png>)

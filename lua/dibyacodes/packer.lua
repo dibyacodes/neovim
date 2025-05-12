@@ -41,13 +41,22 @@ return require('packer').startup(function(use)
 			{'saadparwaiz1/cmp_luasnip'},
 			{'hrsh7th/cmp-nvim-lsp'},
 			{'hrsh7th/cmp-nvim-lua'},
-			-- Snippets
+	-- Snippets
 			{'L3MON4D3/LuaSnip'},
 			{'rafamadriz/friendly-snippets'},
 		}
 	}
 
 	use 'windwp/nvim-ts-autotag'
+	-- For lazy.nvim or packer.nvim
+	
+	use	{
+		"nvim-tree/nvim-tree.lua",
+		dependencies = { "nvim-tree/nvim-web-devicons" }, -- optional for file icons
+		config = function()
+			require("nvim-tree").setup()
+		end,
+	}
 
 
 end)

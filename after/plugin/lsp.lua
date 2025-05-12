@@ -1,5 +1,4 @@
 
-
 -- Set up Mason first
 require('mason').setup({})
 
@@ -36,7 +35,18 @@ cmp.setup({
 
 local lsp = require 'lsp-zero'
 
+
 lsp.preset('recommended')
+
+lsp.configure('lua_ls', {
+  settings = {
+    Lua = {
+      diagnostics = {
+        globals = { 'vim' }
+      }
+    }
+  }
+})
 
 
 lsp.setup()
