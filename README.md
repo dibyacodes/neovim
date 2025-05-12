@@ -16,6 +16,13 @@ OS : Linux
 
 - Start neovim, using ``nvim``
 
-![alt text](<Link to Screenshot from 2025-05-12 12-48-02.png>)
+##### The theme is used : Rose-Pine
+##### Package Manager : Packer
 
-#### (Yes I use neovim,)
+![Coding Screen](<Link to Screenshot from 2025-05-12 12-48-02.png>)
+
+![Fuzzy Finder](<Link to Screenshot from 2025-05-12 12-50-22.png>)
+
+![Split Screen](<Link to Screenshot from 2025-05-12 12-51-28.png>)
+
+![File tree](<Link to Screenshot from 2025-05-12 12-52-40.png>)
