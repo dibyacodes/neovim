@@ -12,6 +12,9 @@ require('mason-lspconfig').setup({
   },
 })
 
+
+
+
 -- enabling auto completion
 
 local cmp = require('cmp')
@@ -35,6 +38,9 @@ cmp.setup({
 
 local lsp = require 'lsp-zero'
 
+require('lspconfig').ts_ls.setup{
+  filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact" }
+}
 
 lsp.preset('recommended')
 
